@@ -1,0 +1,190 @@
+body {
+    font-family: "Lato", sans-serif;
+    height: 100%;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 30px;
+    text-align: center;
+    
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 11px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 70px 10px;
+    margin-left: 18.5rem;
+    height: 100vh;
+    background: url(./images/c2.jpg) fixed center no-repeat ;
+    color: white;
+  
+  }
+  
+  .main p{
+    text-align: center;
+    
+  }
+
+  .experience p{
+    text-align: center;
+  }
+
+  .education p{
+    text-align: center;
+  }
+
+  .interests p{
+    text-align: center;
+  }
+
+  .skills p{
+    text-align: center;
+  }
+
+
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  #main {
+      height: 90vh;
+  }
+
+  .futer{
+      background-color: rgb(17, 1, 1);
+      /* height: 5%; */
+      text-align: center;
+      /* margin-left: 50%; */
+      height: 10vh;
+      margin-top: 0rem;
+      padding-top:1.5rem;
+      padding-bottom:5rem;
+      margin-left: 15rem;
+      
+  }  
+  
+    #experience {
+        height: 100vh;
+        background: url(./images/c2.jpg) fixed center no-repeat ;
+        color: white;
+        /* opacity: 0.8; */
+    }
+    #education{
+        height: 100vh;
+        
+        background: url(images/b1.jpg)  fixed center no-repeat ;
+        color: white;
+
+    }
+    #interests{
+        height: 100vh;
+        background: url(./images/b1.jpg) fixed center no-repeat ;
+        color: white;
+       
+    }
+    #skills{
+         
+        height: 100vh;
+        background: url(./images/wallpaperflare.com_wallpaper\ \(7\).jpg) fixed center no-repeat ;
+        color: white;
+        /* margin-left: 15rem; */
+        /* opacity: 0.1; */
+    }
+    #main{
+        height: 100vh;
+    }
+
+
+
+  .futer i:hover {
+      padding-right:0.3rem;
+      color: #f1f1f1; 
+
+      font-weight: lighter;
+
+
+  }
+ 
+  .experience p{
+    margin-left: 20rem;
+    /* margin-top: 2rem; */
+   
+    
+  }
+
+  .education p{
+    margin-left: 20rem;
+    
+    
+  }
+
+  .interests p{
+    margin-left: 20rem;
+    
+    
+  }
+
+  .skills p{
+      margin-left: 20rem;
+      
+  }
+  .main h1{
+      text-align: center;
+      font-weight: bold ;
+      font-size: 5rem;
+  }
+
+.experience h1{
+    text-align: center;
+    font-weight: bold ;
+    font-size: 5rem;
+    margin-left: 18rem;
+    padding: 50px
+
+}  
+.education h1{
+    text-align: center;
+    font-weight: bold ;
+    font-size: 5rem;
+    margin-left: 18rem;
+    padding: 50px
+}
+.interests h1{
+    text-align: center;
+    font-weight: bold ;
+    font-size: 5rem;
+    margin-left: 18rem;
+    padding: 50px
+}
+.skills h1{
+    text-align: center;
+    font-weight: bold ;
+    font-size: 5rem;
+    margin-left: 18rem;
+    padding: 50px
+}
+
+ 
